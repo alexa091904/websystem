@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ElectroShop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroShop</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #e2ceb1;
+            text-align: center
+        }
+        h1 {
+            background: #33311f;
+            color: white;
+            padding: 15px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+       .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+    
+        }
+        .about {
+            background: #f4f4f4;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #33311f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #55532a;
+        } 
+        .footer {
+            background: #33311f;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Electronic Shop</h1>
+    <nav>
+        <a href="#">Home</a> | 
+        <a href="#">Products</a> | 
+        <a href="#">Contact</a>
+    </nav>
+
+    <h2>Our Products</h2>
+
+    </header>
+   
+
+    <div class="product">
+        <h2>Keyboard</h2>
+        <p>Price: $49.99</p>
+        <img src="" alt="">
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>Mouse</h2>
+        <p>Price: $29.99</p>
+        <button>Add to Cart</button>
+    </div>
+    
+    <div class="product">
+        <h2>Monitor</h2>
+        <p>Price: $199.99</p>
+        <button>Add to Cart</button>
+    </div>
+    
+    <div class="product">
+        <h2>Headphones</h2>
+        <p>Price: $89.99</p>
+        <button>Add to Cart</button>
+    </div>
+    
+    <div class="container about">
+        <div class="product">
+            <h2>About Us</h2>
+            <p>Welcome to ElectroShop, your one-stop destination for all things electronic! 
+            We offer a wide range of products, from the latest gadgets to essential accessories. 
+            Our mission is to provide high-quality electronics at competitive prices, ensuring our 
+            customers have the best shopping experience possible. Whether you're a tech enthusiast or 
+            just looking for reliable devices, ElectroShop has something for everyone. Thank you for choosing 
+            us for your electronic needs!</p>
+        </div>
+
+    <div class="footer">
+        &copy; 2024 ElectroShop. All rights reserved.
+    </div>
+</body>
+</html>
